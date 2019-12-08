@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb86abc-d933-45ad-82db-dd00260491f1" name="Default Changelist" comment="" />
+    <list default="true" id="cfb86abc-d933-45ad-82db-dd00260491f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Illumio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Illumio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Illumio/Firewall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Illumio/Firewall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule.csv" beforeDir="false" afterPath="$PROJECT_DIR$/rule.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Firewall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Firewall.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +38,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -53,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FirewallTest.test">
     <configuration name="Firewall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Firewall" />
       <module name="Illumio" />
@@ -61,9 +69,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in Illumio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Illumio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirewallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Illumio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirewallTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirewallTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Illumio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirewallTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirewallTest.test" />
+        <item itemvalue="JUnit.FirewallTest" />
         <item itemvalue="Application.Firewall" />
+        <item itemvalue="JUnit.All in Illumio" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +117,7 @@
       <updated>1575741374679</updated>
       <workItem from="1575741377193" duration="11588000" />
       <workItem from="1575762403815" duration="4919000" />
-      <workItem from="1575771444765" duration="227000" />
+      <workItem from="1575771444765" duration="4500000" />
     </task>
     <servers />
   </component>

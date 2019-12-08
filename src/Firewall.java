@@ -10,7 +10,10 @@ public class Firewall {
         boolean test4 = acceptPacket("inbound", "udp",43,"12.53.6.25");
         boolean test5 = acceptPacket("inbound", "tcp",673,"123.45.56.83");
         boolean test6 = acceptPacket("inbound", "udp",677,"123.45.56.85");
-        boolean test7 = acceptPacket("inbound", "tcp",677,"123.45.56.85");
+        boolean test7 = acceptPacket("inbound", "tcp",677,"123.45.56.78");
+        boolean test8 = acceptPacket("inbound", "tcp",670,"123.45.56.85");
+        boolean test9 = acceptPacket("outbound", "udp",999,"52.12.48.92");
+        boolean test10 = acceptPacket("outbound", "udp",1500,"52.12.48.92");
         System.out.println(test1);
         System.out.println(test2);
         System.out.println(test3);
@@ -18,9 +21,12 @@ public class Firewall {
         System.out.println(test5);
         System.out.println(test6);
         System.out.println(test7);
+        System.out.println(test8);
+        System.out.println(test9);
+        System.out.println(test10);
     }
 
-    private static boolean acceptPacket(String direction, String protocol, int port, String ipAddress) {
+    public static boolean acceptPacket(String direction, String protocol, int port, String ipAddress) {
         NetworkRule rule = new NetworkRule(direction, protocol, port, Utils.ipToLong(ipAddress));
         if (direction.equals("inbound") && protocol.equals("udp")) {
             return Utils.InUdp.containsKey(rule.hash());
